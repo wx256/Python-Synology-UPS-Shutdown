@@ -1,5 +1,5 @@
 # Python-Synology-UPS-Shutdown
-# byAWE
+# Wecent www.wx256.com
 # Synology QQ Qun 54123646
 import os
 import time
@@ -35,7 +35,7 @@ def pingMaster(masterip='127.0.0.1', delay='10', count=10, islog='true'):
                 f.write(now + " " + "shutdown")
                 f.write("\r\n")
                 f.close()
-                os.popen('init 0')
+            os.popen('init 0')
 
         if os.path.exists("stop.txt") or os.path.exists("stop"):
             run = False
