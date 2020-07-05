@@ -52,8 +52,8 @@ python ping.py 192.168.1.1 10 10 True
 
 也可参考本人博客图文说明
 
-http://www.wx256.com/html/7123402138.html
+http://www.wx256.com/html/techdoc/27.html
 
 or
 
-http://www.wecent.com.cn/html/7123402138.html
+http://www.wecent.com.cn/html/techdoc/27.html
